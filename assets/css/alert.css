@@ -1,0 +1,129 @@
+.att-alert {
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    height: 120px;
+    border-radius: 0px;
+    box-shadow: 2px 3px 10px rgb(230, 230, 230), -2px -3px 10px rgb(230,230,230);
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 80px;
+    margin-left: 5%;
+    margin-bottom: 30px;
+    overflow: auto;
+}
+
+.att-alert h2 {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 900;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: hsl(220, 24%, 12%);
+}
+
+.att-alert p {
+    font-size: 13px;
+    opacity: .4;
+    margin-bottom: 20px;
+}
+
+
+/* Redes sociales */
+
+.att-cartelera {}
+
+.anuncio {
+    background-color: hsl(220, 24%, 12%);
+    width: 90%;
+    height: 40px;
+    border-radius: 0px;
+    box-shadow: 2px 3px 10px rgb(230, 230, 230), -2px -3px 10px rgb(230,230,230);
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-bottom: 30px;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.anuncio p {
+    font-family: 'Quicksand', sans-serif;
+    display: inline-block;
+    animation: moverTexto 10s linear infinite;
+    animation-delay: 2s;
+    /* Retraso antes de iniciar la animación de entrada */
+    opacity: 0;
+    /* Inicialmente invisible */
+    animation-fill-mode: backwards;
+    /* Mantiene el estado inicial invisible */
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+@keyframes moverTexto {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    5% {
+        opacity: 1;
+        /* Empieza a aparecer */
+    }
+    95% {
+        opacity: 1;
+        /* Sigue visible mientras se desplaza */
+    }
+    100% {
+        transform: translateX(-100%);
+        opacity: 0;
+        /* Desaparece al final */
+    }
+}
+
+
+
+/* ADS XFAMILY */
+
+.ads-xfamily {
+    background-color: hsl(220, 24%, 12%);
+    width: 90%;
+    height: 120px;
+    border-radius: 0px;
+    box-shadow: 2px 3px 10px rgb(230, 230, 230), -2px -3px 10px rgb(230,230,230);
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-bottom: 30px;
+    overflow: hidden;    
+    /*=======*/
+    content: "ADS XFAMILY";
+    font-size: 15px;
+    text-align: center;
+    /* Puedes ajustar el color de fondo */
+    color: white;
+    /* Puedes ajustar el color del texto */
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* FOOTER */
+footer {
+  background-color: hsl(220, 24%, 12%);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
