@@ -1,0 +1,233 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Descripción de tu página">
+    <meta name="keywords" content="Palabras clave relacionadas">
+    <meta name="author" content="Tu nombre">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Metas para redes sociales -->
+    <meta property="og:title" content="Título para redes sociales">
+    <meta property="og:description" content="Descripción para redes sociales">
+    <meta property="og:image" content="URL de la imagen para redes sociales">
+    <meta property="og:url" content="URL de tu página">
+    <meta name="twitter:title" content="Título para Twitter">
+    <meta name="twitter:description" content="Descripción para Twitter">
+    <meta name="twitter:image" content="URL de la imagen para Twitter">
+
+    <!-- Metas de seguridad -->
+    <meta http-equiv="Content-Security-Policy" content="...">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+
+    <!--============= Otros metas  ============-->
+    <meta name="application-name" content="Nombre de la aplicación">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="canonical" href="URL canónica de tu página">
+    <link rel="stylesheet" href="assets/css/style.main.css">
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/public.css">
+    <link rel="stylesheet" href="assets/css/alert.css">
+    <link rel="stylesheet" href="assets/css/scrollb.css">
+    <link rel="stylesheet" href="assets/css/notifi.css">
+
+    <!--============= FONT GOOGLE =============-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap">
+
+    <!--============= VIDEO JS ================-->
+    <link href="https://vjs.zencdn.net/8.6.1/video-js.css" rel="stylesheet" />
+    <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+    <!-- <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script> -->
+
+    <!-- Titulo Web -->
+    <title>XFAMILY</title>
+    <!-- Enlaces a hojas de estilo, scripts, etc. -->
+</head>
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__data">
+                <a href="#" class="nav__logo">
+                    <i class="ri-planet-line"></i> Xfamily
+                </a>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line nav__burger"></i>
+                    <i class="ri-close-line nav__close"></i>
+                </div>
+            </div>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="/" class="nav__link">Home</a></li>
+
+                    <li><a href="#" class="nav__link">Company</a></li>
+
+                    <!--=============== DROPDOWN 1 ===============-->
+                    <li class="dropdown__item">
+                        <div class="nav__link">
+                            Analytics <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        </div>
+
+                        <ul class="dropdown__menu">
+                            <li>
+                                <a href="#" class="dropdown__link">
+                                    <i class="ri-pie-chart-line"></i> Overview
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="dropdown__link">
+                                    <i class="ri-arrow-up-down-line"></i> Transactions
+                                </a>
+                            </li>
+
+                            <!--=============== DROPDOWN SUBMENU ===============-->
+                            <li class="dropdown__subitem">
+                                <div class="dropdown__link">
+                                    <i class="ri-bar-chart-line"></i> Reports <i class="ri-add-line dropdown__add"></i>
+                                </div>
+
+                                <ul class="dropdown__submenu">
+                                    <li>
+                                        <a href="#" class="dropdown__sublink">
+                                            <i class="ri-file-list-line"></i> Documents
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#" class="dropdown__sublink">
+                                            <i class="ri-cash-line"></i> Payments
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#" class="dropdown__sublink">
+                                            <i class="ri-refund-2-line"></i> Refunds
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#" class="nav__link">Products</a></li>
+
+                    <!--=============== DROPDOWN 2 ===============-->
+                    <li class="dropdown__item">
+                        <div class="nav__link">
+                            Users <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        </div>
+
+                        <ul class="dropdown__menu">
+                            <li>
+                                <a href="#" class="dropdown__link">
+                                    <i class="ri-user-line"></i> Profiles
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="dropdown__link">
+                                    <i class="ri-lock-line"></i> Accounts
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="dropdown__link">
+                                    <i class="ri-message-3-line"></i> Messages
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+
+
+
+                    <!--=============== DROPDOWN 2 ===============-->
+                    <li class="dropdown__item">
+                        <div class="nav__link">
+                            Contact <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        </div>
+
+                        <ul class="dropdown__menu">
+                            <li>
+                                <a href="https://www.facebook.com/carlosmendoza2007" class="dropdown__link">
+                                    <i class="ri-facebook-box-line"></i> Facebook
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.instagram.com/cm23l" class="dropdown__link">
+                                    <i class="ri-instagram-line"></i> Instagram
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://chat.whatsapp.com/EQgI0FJIxPf71oXe5eOgIr" class="dropdown__link">
+                                    <i class="ri-whatsapp-line"></i> Whatsapp
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!--<li><a href="#" class="nav__link">Contact</a></li>-->
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <!-- NOTIFICACIONES -->
+
+    <main class="m-notifi">
+        <h1>NOTIFICACIONES</h1>
+        <!-- Mensaje de atencion -->
+        <div class="att-alert_one">
+            <h3>Eduardo Mendoza</h3>
+            <p>
+                ¡Bienvenidos a nuestra comunidad de entretenimiento visual!
+
+                En nombre de todo el equipo, es un placer darles la más cordial bienvenida a nuestra plataforma de videos. Aquí, encontrarán un universo de emocionantes contenidos: desde películas emocionantes hasta series cautivadoras, pasando por videos instructivos y momentos memorables.
+
+                Nos esforzamos por crear un espacio donde puedan explorar, descubrir y sumergirse en historias que los inspirarán, entretendrán y emocionarán. Queremos que se sientan como en casa, disfrutando de una experiencia de visualización sin igual.
+
+                Vuestra presencia es fundamental para nosotros. Queremos que sepan que sus comentarios, sugerencias y emociones son valiosos. Estamos aquí para proporcionarles el mejor entretenimiento y estamos emocionados de tenerlos a bordo en este emocionante viaje.
+
+                ¡Prepárense para sumergirse en un mundo de emociones visuales!
+
+                ¡Bienvenidos a nuestro rincón de entretenimiento!
+
+                <br><br>El equipo de xfamily.
+            </p>
+            
+            <h4>29/12/23</h4>
+        </div>
+    </main>
+    <!-- Geolocalizacion  GPS  -->
+    <script src="assets/js/localizacion.main.js"></script>
+    <!-- Script eliminar extension -->
+    <script src="assets/js/extension.main.js"></script>
+    <!-- Menu Responsive -->
+    <script src="assets/js/mrs.main.js"></script>
+    <!-- Estilo de publicacion -->
+    <script src="assets/js/public.main.js"></script>
+    <script src="https://kit.fontawesome.com/345f20a856.js" crossorigin="anonymous"></script>
+    <!-- Compartir enlace  -->
+    <script src="assets/js/share.min.js"></script>
+    <!-- Video js-->
+    <script src="https://vjs.zencdn.net/8.6.1/video.min.js"></script>
+    <!-- Scroll -->
+    <script src="assets/js/app.main.js"></script>
+</body>
+</html>

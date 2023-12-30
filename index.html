@@ -1,0 +1,447 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Descripción de tu página">
+    <meta name="keywords" content="Palabras clave relacionadas">
+    <meta name="author" content="Tu nombre">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Metas para redes sociales -->
+    <meta property="og:title" content="Título para redes sociales">
+    <meta property="og:description" content="Descripción para redes sociales">
+    <meta property="og:image" content="URL de la imagen para redes sociales">
+    <meta property="og:url" content="URL de tu página">
+    <meta name="twitter:title" content="Título para Twitter">
+    <meta name="twitter:description" content="Descripción para Twitter">
+    <meta name="twitter:image" content="URL de la imagen para Twitter">
+
+    <!-- Metas de seguridad -->
+    <meta http-equiv="Content-Security-Policy" content="...">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+
+    <!--============= Otros metas  ============-->
+    <meta name="application-name" content="Nombre de la aplicación">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="canonical" href="URL canónica de tu página">
+    <link rel="stylesheet" href="assets/css/style.main.css">
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/public.css">
+    <link rel="stylesheet" href="assets/css/alert.css">
+    <link rel="stylesheet" href="assets/css/scrollb.css">
+
+    <!--============= FONT GOOGLE =============-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap">
+
+    <!--============= VIDEO JS ================-->
+    <link href="https://vjs.zencdn.net/8.6.1/video-js.css" rel="stylesheet" />
+    <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+    <!-- <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script> -->
+
+    <!-- Titulo Web -->
+    <title>XFAMILY</title>
+    <!-- Enlaces a hojas de estilo, scripts, etc. -->
+</head>
+<body>
+
+    <!-- PLUGIN SOCIAL FACEBOOK -->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v18.0&appId=538755431555784" nonce="wBIAuDz1"></script>
+
+
+    <!--=============== HEADER ===============-->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__data">
+                <a href="#" class="nav__logo">
+                    <i class="ri-planet-line"></i> Xfamily
+                </a>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line nav__burger"></i>
+                    <i class="ri-close-line nav__close"></i>
+                </div>
+            </div>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="#" class="nav__link">Home</a></li>
+
+                    <li><a href="#" class="nav__link">Company</a></li>
+
+                    <!--=============== DROPDOWN 1 ===============-->
+                    <li class="dropdown__item">
+                        <div class="nav__link">
+                            Analytics <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        </div>
+
+                        <ul class="dropdown__menu">
+                            <li>
+                                <a href="#" class="dropdown__link">
+                                    <i class="ri-pie-chart-line"></i> Overview
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="dropdown__link">
+                                    <i class="ri-arrow-up-down-line"></i> Transactions
+                                </a>
+                            </li>
+
+                            <!--=============== DROPDOWN SUBMENU ===============-->
+                            <li class="dropdown__subitem">
+                                <div class="dropdown__link">
+                                    <i class="ri-bar-chart-line"></i> Reports <i class="ri-add-line dropdown__add"></i>
+                                </div>
+
+                                <ul class="dropdown__submenu">
+                                    <li>
+                                        <a href="#" class="dropdown__sublink">
+                                            <i class="ri-file-list-line"></i> Documents
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#" class="dropdown__sublink">
+                                            <i class="ri-cash-line"></i> Payments
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#" class="dropdown__sublink">
+                                            <i class="ri-refund-2-line"></i> Refunds
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#" class="nav__link">Products</a></li>
+
+                    <!--=============== DROPDOWN 2 ===============-->
+                    <li class="dropdown__item">
+                        <div class="nav__link">
+                            Users <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        </div>
+
+                        <ul class="dropdown__menu">
+                            <li>
+                                <a href="#" class="dropdown__link">
+                                    <i class="ri-user-line"></i> Profiles
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="dropdown__link">
+                                    <i class="ri-lock-line"></i> Accounts
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="sms.html" class="dropdown__link">
+                                    <i class="ri-message-3-line"></i> Messages
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+
+
+
+                    <!--=============== DROPDOWN 2 ===============-->
+                    <li class="dropdown__item">
+                        <div class="nav__link">
+                            Contact <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        </div>
+
+                        <ul class="dropdown__menu">
+                            <li>
+                                <a href="https://www.facebook.com/carlosmendoza2007" class="dropdown__link">
+                                    <i class="ri-facebook-box-line"></i> Facebook
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.instagram.com/cm23l" class="dropdown__link">
+                                    <i class="ri-instagram-line"></i> Instagram
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://chat.whatsapp.com/EQgI0FJIxPf71oXe5eOgIr" class="dropdown__link">
+                                    <i class="ri-whatsapp-line"></i> Whatsapp
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!--<li><a href="#" class="nav__link">Contact</a></li>-->
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Mensaje de atencion -->
+        <div class="att-alert">
+            <h2>ATENCION</h2>
+            <P>Esperamos que estén disfrutando de nuestra página tanto como nosotros disfrutamos brindándoles contenido de calidad. Para seguir ofreciéndoles servicios y mantener nuestro sitio activo, necesitamos su apoyo.</P>
+            <p>
+                Les pedimos amablemente que consideren acceder a nuestros anuncios. Esto nos ayuda a generar ingresos necesarios para mantener y mejorar la experiencia que les ofrecemos. Sabemos que los anuncios pueden ser molestos, pero cada clic contribuye a mantener este espacio en línea.
+            </p>
+            <p>
+                Agradecemos profundamente su comprensión y apoyo continuo. Juntos, podemos asegurar la continuidad de nuestra comunidad.
+            </p>
+            <p>
+                ¡Gracias por ser parte de nuestra familia!
+            </p>
+            <p>
+                Atentamente XFAMILY
+            </p>
+        </div>
+
+        <!-- Redes sociales-->
+        <div class="att-cartelera">
+            <div class="anuncio">
+                <p class="redondeado">
+                    Facebook, WhatsApp, Reddit, Instagram.
+                </p>
+            </div>
+        </div>
+        <!-- Contenido principal de la página -->
+    </main>
+
+    <!--============== POST POINT / INICIO ============-->
+    <section>
+        <div class="card">
+            <div class="profile">
+                <div class="logo"></div>
+                <div class="user-details">
+                    <p>
+                        Eduardo Mendoza
+                    </p>
+                    <p class="text-sm">
+                        @cm23l
+                    </p>
+                </div>
+                <div class="detail-icon d-flex">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="img">
+                <img src="assets/src/Angelica-Veronica-QR.jpg" alt="porn">
+            </div>
+            <div class="footer">
+                <div class="footer-icons">
+                    <i class="far fa-heart"></i>
+                    <i class="far fa-comment" id="mostrarDivBtn" onclick="mostrarDiv()"></i>
+                    <i id="shareButton" class="far fa-paper-plane"></i>
+                    <div class="right">
+                        <a href="#" download="DESCARGA LISTA - XFAMILY"><i class="far fa-bookmark"></i></a>
+                    </div>
+                </div>
+                <div class="text-sm views">
+                    10,328 views
+                </div>
+                <div class="text-sm footer2">
+                    cm23l instagram template <blue>#xfamily</blue>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--============== POST POINT / FINAL ============-->
+
+    <!--============== POST POINT / INICIO ============-->
+    <section>
+        <div class="card">
+            <div class="profile">
+                <div class="logo"></div>
+                <div class="user-details">
+                    <p>
+                        Eduardo Mendoza
+                    </p>
+                    <p class="text-sm">
+                        @cm23l
+                    </p>
+                </div>
+                <div class="detail-icon d-flex">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="img">
+                <!--<img src="assets/src/Angelica-Veronica-QR.jpg" alt="porn">-->
+                <video id="my-video" class="video-js" controls preload="auto" width="640" height="264" poster="./assets/img/show.jpg" data-setup="{}">
+                    <source src="./assets/video/1.mp4" type="video/mp4" />
+                    <p class="vjs-no-js">
+                        To view this video please enable JavaScript, and consider upgrading to a web browser that
+                        <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                    </p>
+                </video>
+            </div>
+            <div class="footer">
+                <div class="footer-icons">
+                    <i class="far fa-heart"></i>
+                    <i id="mostrarDivBtn" onclick="mostrarDiv()" class="far fa-comment"></i>
+                    <i id="shareButton" class="far fa-paper-plane"></i>
+                    <div class="right">
+                        <a href="#" download="DESCARGA LISTA - XFAMILY"><i class="far fa-bookmark"></i></a>
+                    </div>
+                </div>
+                <div class="text-sm views">
+                    10,328 views
+                </div>
+                <div class="text-sm footer2">
+                    cm23l instagram template <blue>#xfamily</blue>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--============== POST POINT / FINAL ============-->
+    <!-- ADS XFAMILY-->
+    <div class="ads-xfamily">
+        anuncio
+    </div>
+    <!--============== POST POINT / INICIO ============-->
+    <section>
+        <div class="card">
+            <div class="profile">
+                <div class="logo"></div>
+                <div class="user-details">
+                    <p>
+                        Eduardo Mendoza
+                    </p>
+                    <p class="text-sm">
+                        @cm23l
+                    </p>
+                </div>
+                <div class="detail-icon d-flex">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="img">
+                <!--<img src="assets/src/Angelica-Veronica-QR.jpg" alt="porn">-->
+                <video id="my-video" class="video-js" controls preload="auto" width="640" height="264" poster="./assets/img/show.jpg" data-setup="{}">
+                    <source src="./assets/video/2.mp4" type="video/mp4" />
+                    <p class="vjs-no-js">
+                        To view this video please enable JavaScript, and consider upgrading to a web browser that
+                        <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                    </p>
+                </video>
+            </div>
+            <div class="footer">
+                <div class="footer-icons">
+                    <i class="far fa-heart"></i>
+                    <i id="mostrarDivBtn" onclick="mostrarDiv()" class="far fa-comment"></i>
+                    <i id="shareButton" class="far fa-paper-plane"></i>
+                    <div class="right">
+                        <a href="#" download="DESCARGA LISTA - XFAMILY"><i class="far fa-bookmark"></i></a>
+                    </div>
+                </div>
+                <div class="text-sm views">
+                    10,328 views
+                </div>
+                <div class="text-sm footer2">
+                    cm23l instagram template <blue>#xfamily</blue>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--============== POST POINT / FINAL ============-->
+    <!--============== POST POINT / INICIO ============-->
+    <section>
+        <div class="card">
+            <div class="profile">
+                <div class="logo"></div>
+                <div class="user-details">
+                    <p>
+                        Eduardo Mendoza
+                    </p>
+                    <p class="text-sm">
+                        @cm23l
+                    </p>
+                </div>
+                <div class="detail-icon d-flex">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="img">
+                <!--<img src="assets/src/Angelica-Veronica-QR.jpg" alt="porn">-->
+                <video id="my-video" class="video-js" controls preload="auto" width="640" height="264" poster="./assets/img/show.jpg" data-setup="{}">
+                    <source src="./assets/video/3.mp4" type="video/mp4" />
+                    <p class="vjs-no-js">
+                        To view this video please enable JavaScript, and consider upgrading to a web browser that
+                        <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                    </p>
+                </video>
+            </div>
+            <div class="footer">
+                <div class="footer-icons">
+                    <i class="far fa-heart"></i>
+                    <i id="mostrarDivBtn" onclick="mostrarDiv()" class="far fa-comment"></i>
+                    <i id="shareButton" class="far fa-paper-plane"></i>
+                    <div class="right">
+                        <a href="#" download="DESCARGA LISTA - XFAMILY"><i class="far fa-bookmark"></i></a>
+                    </div>
+                </div>
+                <div class="text-sm views">
+                    10,328 views
+                </div>
+                <div class="text-sm footer2">
+                    cm23l instagram template <blue>#xfamily</blue>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--============== POST POINT / FINAL ============-->
+    <!-- Div fijo oculto inicialmente -->
+    <div id="divFijo" class="oculto">
+        <button id="cerrarDivBtn" onclick="cerrarDiv()">✖</button>
+        <h3 class="tt-coment">Comentarios</h3>
+        <div class="coment">
+            <div class="fb-comments" data-href="https://www.facebook.com/100083141321891/posts/pfbid02qzbf5E7RSrbZTSdTjn7QPy54BQHVGNzErQ9uUx7vRTt42YoNzYwzyrmtPzisN6zPl/?app=fbl" data-width="" data-numposts="5"></div>
+        </div>
+    </div>
+
+    <button id="scrollBtn" onclick="scrollToTop()">↑</button>
+
+    <footer>
+        <p>
+            &copy; 2023 XFAMILY. Todos los derechos reservados.
+        </p>
+        <!-- Otro contenido del footer -->
+    </footer>
+    <!-- Geolocalizacion  GPS  -->
+    <script src="assets/js/localizacion.main.js"></script>
+    <!-- Script eliminar extension -->
+    <script src="assets/js/extension.main.js"></script>
+    <!-- Menu Responsive -->
+    <script src="assets/js/mrs.main.js"></script>
+    <!-- Estilo de publicacion -->
+    <script src="assets/js/public.main.js"></script>
+    <script src="https://kit.fontawesome.com/345f20a856.js" crossorigin="anonymous"></script>
+    <!-- Compartir enlace  -->
+    <script src="assets/js/share.min.js"></script>
+    <!-- Video js-->
+    <script src="https://vjs.zencdn.net/8.6.1/video.min.js"></script>
+    <!-- Scroll -->
+    <script src="assets/js/app.main.js"></script>
+</body>
+</html>
